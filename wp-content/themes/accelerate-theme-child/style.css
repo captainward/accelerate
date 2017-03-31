@@ -1,0 +1,135 @@
+/*
+ Theme Name:   Accelerate Theme Child
+ Theme URI:    http://example.com/accelerate-theme-child/
+ Description:  Accelerate Child Theme - Accelerate
+ Author:       Ward Salud
+ Author URI:   http://example.com
+ Template:     accelerate-theme
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+*/
+
+@import url("../accelerate-theme/style.css");
+
+
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.menu-top-nav-container ul li {
+	float: left;
+	margin: 0 10px;
+	overflow: auto;
+}
+
+.blog-post {
+	width: 50%;
+}
+
+.blog-post h4 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+.blog-post h2 {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+}
+
+.blog-post .read-more-link {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+/* Case Studies */
+
+article.case-study {
+	margin: 40px 0 0;
+}
+
+aside.case-study-sidebar {
+	float: left;
+	width: 300px;
+	margin: 0 40px 0 0;
+}
+
+div.case-study-images{
+	float: left;
+	width:606px;
+}
+
+div.case-study-images img {
+	margin-bottom: 50px;
+	border: 1px solid #dddddd;
+	max-width: 100%;
+}
+
+.featured-work h4 {
+	font-family: Montserrat, Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+}
+
+
+ul li .homepage-featured-work {
+	list-style-type: none;
+}
+
+.individual-featured-work {
+	float:left;
+	margin: 20px 10px 20px 0;
+	list-style-type: none;
+	max-width: 100%;
+}
+
+.individual-featured-work a {
+	color: #696969;
+	
+}
+
+.individual-featured-work h6 {
+	font-size: .8em;
+	margin-top: 20px;
+}
+
+
+.center {
+	text-align: center;
+}
+
+.recent-posts h4{
+	padding-top: 1em;
+	
+}
+
+#read-more {
+	font-size: 1.1em;
+	
+}
+
+.read-more-link {
+	text-align: center;
+	font-weight: bold;
+}
+
+.nf-field-1-container .nf-field-2-container {
+	float: left;
+	
+}
